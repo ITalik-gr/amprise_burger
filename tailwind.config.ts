@@ -19,7 +19,8 @@ const config: Config = {
     },
     colors: {
       base_black: "#1F2939",
-      base_red: "#FF4D4F"
+      base_red: "#FF4D4F",
+      gray: "#676D77",
     }
   },
   plugins: [],
