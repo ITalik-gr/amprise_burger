@@ -1,10 +1,11 @@
 import Image from "next/image"
 import Logo from '@images/logo.png'
+import Link from "next/link"
 
 
 function Nav() {
   return (
-    <nav className='nav pt-[27px]'>
+    <nav className='nav pt-[27px] sticky top-0'>
       <div className="container">
         <div className="nav-wrap flex justify-between items-center">
           {/* left block (logo, item list) */}
@@ -15,14 +16,14 @@ function Nav() {
 
             <ul className="last:mr-0 flex">
               <li className="mr-[59px]">
-                <a className="text-base_black text-base nav-active" href="#">
+                <Link  className="text-base_black text-base nav-active" href="#hero-section">
                   Discover
-                </a>
+                </Link>
               </li>
               <li className="mr-[59px]">
-                <a className="text-base_black text-base font-normal" href="#">
+                <Link  className="text-base_black text-base font-normal" href="#calculator">
                   Discover
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
